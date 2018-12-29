@@ -1,0 +1,12 @@
+.firstDiv {
+    color: blue;
+}
+
+.secondDiv {
+    background: blue;
+    color: white;
+}
+
+#lastP {
+    color: red;
+}
