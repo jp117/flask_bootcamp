@@ -5,7 +5,7 @@
 ### ~Section 3: CSS Crash Course~
 ### ~Section 4: Bootstrap Crash Course~
 ### ~Section 5: Python - Level One~
-### Section 6: Python - Level Two
+### ~Section 6: Python - Level Two~
 ### Section 7: Flask Basics
 ### Section 8: Templates
 ### Section 9: Forms with Flask
