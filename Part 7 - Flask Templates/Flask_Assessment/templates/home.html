@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Welcome to the puppy username check homepage</h1>
+    <h3>lets see if your username meets the correct requirements</h3>
+    <ul>
+        <li>Username must contain an uppercase letter</li>
+        <li>Username must contain a lowercase letter</li>
+        <li>Username must end with a number</li>
+    </ul>
+    <form action="{{ url_for('username')}}">
+        <input class="form-control" type="text" placeholder="Default input" name='username'>
+        <button class='btn btn-primary' type='submit' href="username.html">Check Username</button>
+    </form>
+    
+{% endblock %}

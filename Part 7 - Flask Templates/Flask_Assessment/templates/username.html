@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    {% if capital == 'passed' and lowercase == 'passed' and number == 'passed' %}
+        <h1>Congrats.  You passed the check</h1>
+    {% else %}
+        <h1>You did not pass the check</h1>
+        <h3>here are the requirements you failed</h3>
+        <ul>
+           {% if capital != 'passed' %}
+            <li>You did not have a capital letter</li>
+            {% endif %}
+            {% if lowercase != 'passed' %}
+            <li>You did not have a lowercaes letter</li>
+            {% endif %}
+            {% if number != 'passed' %}
+            <li>You did not end your username with a number</li>
+            {% endif %}
+        </ul>
+    {% endif %}
+
+{% endblock %}

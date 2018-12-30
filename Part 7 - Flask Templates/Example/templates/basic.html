@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Welcome to the site</h1>
+    <h2>This is my list: </h2>
+    <ul>
+        {% for item in mylist %}
+        <li>{{item}}</li>
+        {% endfor %}
+    </ul>
+
+    {% if 1 in mylist %}
+    <p>1 was in the list</p>
+    {% else %}
+    <p>1 was not in the list</p>
+    {% endif %}
+</body>
+</html>
