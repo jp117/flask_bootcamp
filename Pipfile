@@ -11,6 +11,8 @@ flask-wtf = "*"
 wtforms = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
+flask-bcrypt = "*"
+flask-login = "*"
 
 [requires]
 python_version = "3.6"
