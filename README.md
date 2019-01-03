@@ -9,7 +9,7 @@
 ### ~Section 7: Flask Basics~
 ### ~Section 8: Templates~
 ### ~Section 9: Forms with Flask~
-### Section 10: SQL Databases with Flask
+### ~Section 10: SQL Databases with Flask~
 ### Section 11: Large Flask Applications
 ### Section 12: Flask Migrate for Database Migrations
 ### Section 13: Large Project - Social Company Blog
