@@ -13,6 +13,7 @@ flask-sqlalchemy = "*"
 flask-migrate = "*"
 flask-bcrypt = "*"
 flask-login = "*"
+flask-dance = "*"
 
 [requires]
 python_version = "3.6"
