@@ -14,6 +14,8 @@ flask-migrate = "*"
 flask-bcrypt = "*"
 flask-login = "*"
 flask-dance = "*"
+pil = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.6"
